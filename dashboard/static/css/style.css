@@ -1,0 +1,82 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+* {
+	font-family: Arial, Roboto;
+}
+
+.center {
+    text-align: center;
+}
+
+#title {
+    height: 80px;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#title h1 {
+    width: 300px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
+#kpis {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid black;
+}
+
+.kpi {
+    width: 200px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kpi__value {
+    font-size: 30px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.chart h3 {
+    padding: 10px;
+    margin: 0px;
+
+    /* height: 50px; */
+}
+
+.chart p {
+    margin-right: 12px;
+
+    font-size: 12px;
+}
+
+#recrut {
+    width: 900px;
+    height: 350px;
+}
